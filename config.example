@@ -1,0 +1,15 @@
+// copy this file to config.h
+
+// ESP8266 pinout settings
+#define DHT22_SENSOR_PIN D5
+#define SOIL_HUM_ANALOG_PIN A0
+
+// ESP8266 connection settings
+const char* str_SSID = "SSID";
+const char* str_PASSWORD = "PASSWORD";
+const char* url = "https://domoticz.mydomain.com";
+
+// domoticz device identifiers
+const int dht_idx = 0;
+const int soil_idx = 0;
+const int lux_idx = 0;
