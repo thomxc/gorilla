@@ -1,0 +1,3 @@
+script: 
+  - curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | sh
+  - arduino-cli compile -b esp8266 .
